@@ -241,11 +241,23 @@ header{
     height: 100vh;
     left: -5px;
     top: 1019px;
+    margin-top: 319.5px;
+}
+
+.alinhamento-pag2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+
+    width: 1476px;
+    height: 661px;
 }
 
 .img-pag2{
     display: flex;
-    top: 319.5px;
+    justify-content: center;
 }
 
 .alinha-pag2{
@@ -351,5 +363,4 @@ footer{
 
     width: 105px;
     height: 16.68px;
-
 }
